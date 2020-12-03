@@ -8,7 +8,7 @@ class Project {
 // Details
     public String elevatorPitch() {
         String name = this.name;
-        if(this.description.length() > 0) {
+        if(this.description != null) {
             String description = this.description;
             return name + ": " + description;
         }
